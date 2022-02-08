@@ -1,0 +1,39 @@
+2022-02-08 20:23:08.870 +01:00 [INF] Application is starting!
+2022-02-08 20:23:29.643 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-08 20:23:29.776 +01:00 [INF] Hosting environment: Development
+2022-02-08 20:23:29.778 +01:00 [INF] Content root path: C:\Users\POPE\source\repos\HotelAPI\HotelAPI.HotelListing.API
+2022-02-08 20:23:30.196 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-02-08 20:23:30.903 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 307 - - 725.4044ms
+2022-02-08 20:23:33.998 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44391/ - -
+2022-02-08 20:23:34.171 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44391/ - - - 404 - - 173.5751ms
+2022-02-08 20:26:36.696 +01:00 [INF] Application is starting!
+2022-02-08 20:26:57.694 +01:00 [INF] Now listening on: https://localhost:5001
+2022-02-08 20:26:57.700 +01:00 [INF] Now listening on: http://localhost:5000
+2022-02-08 20:26:57.700 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-08 20:26:57.700 +01:00 [INF] Hosting environment: Development
+2022-02-08 20:26:57.702 +01:00 [INF] Content root path: C:\Users\POPE\source\repos\HotelAPI\HotelAPI.HotelListing.API
+2022-02-08 20:27:15.077 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2022-02-08 20:27:15.510 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 440.7243ms
+2022-02-08 20:27:15.784 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-02-08 20:27:16.747 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 962.6573ms
+2022-02-08 20:27:17.511 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2022-02-08 20:27:17.513 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2022-02-08 20:27:17.513 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2022-02-08 20:27:18.747 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-08 20:27:18.751 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 142933 text/css 1239.8134ms
+2022-02-08 20:27:18.905 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-08 20:27:18.906 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 1392.9597ms
+2022-02-08 20:27:19.158 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-08 20:27:19.158 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 1645.4553ms
+2022-02-08 20:27:20.247 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2022-02-08 20:27:20.278 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-02-08 20:27:20.279 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 32.1757ms
+2022-02-08 20:27:22.481 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-02-08 20:27:23.149 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2022-02-08 20:27:23.185 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2022-02-08 20:27:23.185 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-08 20:27:23.185 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 35.8495ms
+2022-02-08 20:27:23.214 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-08 20:27:23.214 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 29.8064ms
+2022-02-08 20:27:23.968 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1487.3341ms
+2022-02-08 20:28:30.239 +01:00 [INF] Application is shutting down...
