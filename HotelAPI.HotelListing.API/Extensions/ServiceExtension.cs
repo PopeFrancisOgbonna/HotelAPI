@@ -1,4 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using HotelAPI.HotelListing.API.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +20,12 @@ namespace HotelAPI.HotelListing.API.Extensions
                 .AllowAnyMethod()
                 .AllowAnyHeader());
             });
+        }
+
+        public static void ConfigureSqlContext(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddDbContext<HotelDbContext>(option =>
+                option.UseSqlServer(configuration.GetConnectionString("sqlConnection")));
         }
         
     }

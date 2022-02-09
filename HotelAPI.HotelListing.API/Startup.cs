@@ -1,3 +1,4 @@
+using HotelAPI.HotelListing.API.Data;
 using HotelAPI.HotelListing.API.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,6 +31,7 @@ namespace HotelAPI.HotelListing.API
 
             services.AddControllers();
             services.ConfigureCors();
+            services.ConfigureSqlContext(Configuration);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "HotelAPI.HotelListing.API", Version = "v1" });
