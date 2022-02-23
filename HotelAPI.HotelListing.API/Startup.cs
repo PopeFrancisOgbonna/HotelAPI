@@ -32,6 +32,7 @@ namespace HotelAPI.HotelListing.API
             services.AddControllers();
             services.ConfigureCors();
             services.ConfigureSqlContext(Configuration);
+            services.AddAutoMapper(typeof(MapperExtension));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "HotelAPI.HotelListing.API", Version = "v1" });
