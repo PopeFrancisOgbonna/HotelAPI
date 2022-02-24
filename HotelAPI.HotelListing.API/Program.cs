@@ -24,13 +24,6 @@ namespace HotelAPI.HotelListing.API
                 ).CreateLogger();
             try
             {
-
-
-
-
-
-
-
                 Log.Information("Application is starting!");
                 CreateHostBuilder(args).Build().Run();
             }
